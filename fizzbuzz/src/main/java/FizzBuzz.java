@@ -6,7 +6,10 @@ public class FizzBuzz {
         for (int i = 0; i < loop; i++) {
             int number = i + 1;
 
-            if (number % 3 == 0) {
+            if (number % 3 == 0 && number % 5 == 0) {
+                result[i] = "Fizzbuzz";
+            }
+            else if (number % 3 == 0) {
                 result[i] = "Fizz";
             } else if (number % 5 == 0) {
                 result[i] = "Buzz";
