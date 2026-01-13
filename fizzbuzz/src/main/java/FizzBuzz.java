@@ -9,7 +9,7 @@ public class FizzBuzz {
 
             if (number % 3 == 0){ value += "Fizz";}
             if (number % 5 == 0){ value += "Buzz";}
-            if (value.isEmpty()){ value = String.valueOf(number);}
+            if (value.isEmpty()){ value = String.valueOf(number);} // Or value = ""
 
             result[i] = value;
         }

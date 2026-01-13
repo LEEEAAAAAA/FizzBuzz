@@ -10,36 +10,6 @@ class FizzBuzzTest {
 void setUp() {
     fizzBuzz = new FizzBuzz();
 }
-    /*
-    @Test
-    void fizzBuzz() {
-        int expected = 1;
-
-        int result = fizzBuzz.fizzBuzz();
-        assertEquals(expected, result);
-    }
-
-
-
-    @Test
-    void fizzbuzzAsArrayTest() {
-        int[] expected = {1, 2};
-
-        int[] result = fizzBuzz.fizzBuzz(2);
-
-        assertArrayEquals(expected, result);
-    }
-
-    @Test
-    void fizzbuzzAsLoopTest() {
-        int[] expected = {1, 2, 3};
-
-        int[] result = fizzBuzz.fizzBuzz(3);
-
-        assertArrayEquals(expected, result);
-    }
-       */
-
 
     @Test
     void testFizzInFizzBuzz() {
