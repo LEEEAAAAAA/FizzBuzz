@@ -3,3 +3,12 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+**/target/
+target/
+build/
+
+.idea/
+*.iml
+.vscode/
+
+.DS_Store
