@@ -61,7 +61,7 @@ void setUp() {
 
     @Test
     void testFizzBuzzInFizzBuzz() {
-        String[] expected = {"1", "2", "Fizz", "4" , "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "Fizzbuzz" };
+        String[] expected = {"1", "2", "Fizz", "4" , "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz" };
 
         String[] result = fizzBuzz.fizzBuzz(15);
 

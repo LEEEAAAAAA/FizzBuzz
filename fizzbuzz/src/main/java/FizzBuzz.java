@@ -5,17 +5,13 @@ public class FizzBuzz {
 
         for (int i = 0; i < loop; i++) {
             int number = i + 1;
+            String value = "";
 
-            if (number % 3 == 0 && number % 5 == 0) {
-                result[i] = "Fizzbuzz";
-            }
-            else if (number % 3 == 0) {
-                result[i] = "Fizz";
-            } else if (number % 5 == 0) {
-                result[i] = "Buzz";
-            } else {
-                result[i] = String.valueOf(number);
-            }
+            if (number % 3 == 0){ value += "Fizz";}
+            if (number % 5 == 0){ value += "Buzz";}
+            if (value.isEmpty()){ value = String.valueOf(number);}
+
+            result[i] = value;
         }
 
         return result;
