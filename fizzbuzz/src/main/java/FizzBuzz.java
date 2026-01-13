@@ -1,10 +1,16 @@
 public class FizzBuzz {
 
-    public int[] fizzBuzz(int loop) {
-        int[] result = new int[loop];
+    public String[] fizzBuzz(int loop) {
+        String[] result = new String[loop];
 
         for (int i = 0; i < loop; i++) {
-            result[i] = i + 1;
+            int number = i + 1;
+
+            if (number % 3 == 0) {
+                result[i] = "Fizz";
+            } else {
+                result[i] = String.valueOf(number);
+            }
         }
 
         return result;

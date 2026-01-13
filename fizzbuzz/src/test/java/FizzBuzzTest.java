@@ -19,7 +19,6 @@ void setUp() {
         assertEquals(expected, result);
     }
 
-    */
 
 
     @Test
@@ -30,11 +29,23 @@ void setUp() {
 
         assertArrayEquals(expected, result);
     }
+
     @Test
     void fizzbuzzAsLoopTest() {
         int[] expected = {1, 2, 3};
 
         int[] result = fizzBuzz.fizzBuzz(3);
+
+        assertArrayEquals(expected, result);
+    }
+       */
+
+
+    @Test
+    void testFizzInFizzBuzz() {
+        String[] expected = {"1", "2", "Fizz"};
+
+        String[] result = fizzBuzz.fizzBuzz(3);
 
         assertArrayEquals(expected, result);
     }
