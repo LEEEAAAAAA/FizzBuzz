@@ -49,4 +49,13 @@ void setUp() {
 
         assertArrayEquals(expected, result);
     }
+
+    @Test
+    void testBuzzInFizzBuzz() {
+        String[] expected = {"1", "2", "Fizz", "4" , "Buzz"};
+
+        String[] result = fizzBuzz.fizzBuzz(5);
+
+        assertArrayEquals(expected, result);
+    }
 }
