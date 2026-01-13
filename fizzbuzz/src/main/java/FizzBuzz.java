@@ -1,6 +1,7 @@
 public class FizzBuzz {
 
-    public int fizzBuzz() {
-        return 1;
+    public int[] fizzBuzz() {
+        return new int[]{1, 2};
     }
+
 }
